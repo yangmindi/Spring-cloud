@@ -9,6 +9,7 @@
         <module name="comatguiguspringcloudapi" />
         <module name="microservice-cloud-consumer-dept-80" />
         <module name="microservicecloud-provider-dept-8001" />
+        <module name="microservicecloud-eureka-7001" />
       </profile>
     </annotationProcessing>
   </component>
