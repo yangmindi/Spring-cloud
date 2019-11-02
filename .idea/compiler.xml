@@ -11,9 +11,14 @@
         <module name="microservicecloud-eureka-7002" />
         <module name="microservicecloud-provider-dept-8002" />
         <module name="microservicecloud-provider-dept-8001" />
-        <module name="microservicecloud-api" />
         <module name="microservicecloud-provider-dept-8003" />
         <module name="microservicecloud-eureka-7001" />
+      </profile>
+      <profile name="Annotation profile for microservicecloud" enabled="true">
+        <sourceOutputDir name="../com.atguigu.springcloud-api/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../com.atguigu.springcloud-api/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservicecloud-api" />
       </profile>
     </annotationProcessing>
   </component>
