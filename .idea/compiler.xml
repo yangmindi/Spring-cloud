@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="comatguiguspringcloudapi" />
         <module name="microservice-cloud-consumer-dept-80" />
-        <module name="microservicecloud-provider-dept-8001" />
+        <module name="comatguiguspringcloudapi" />
+        <module name="microservicecloud-eureka-7003" />
+        <module name="microservicecloud-eureka-7002" />
         <module name="microservicecloud-eureka-7001" />
+        <module name="microservicecloud-provider-dept-8001" />
       </profile>
     </annotationProcessing>
   </component>
