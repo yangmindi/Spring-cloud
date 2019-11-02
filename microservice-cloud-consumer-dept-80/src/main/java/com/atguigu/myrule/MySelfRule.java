@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Configuration;
 public class MySelfRule {
     @Bean
     public IRule myRule(){
-        return new RandomRule();//Ribbon
+        return new RandomRule_YMD();//Ribbon
     }
 }
