@@ -8,7 +8,7 @@
     <artifactId>microservicecloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>com.atguigu.springcloud-api</module>
+        <module>microservicecloud-api</module>
         <module>microservicecloud-provider-dept-8001</module>
         <module>microservice-cloud-consumer-dept-80</module>
         <module>microservicecloud-eureka-7001</module>
@@ -16,6 +16,7 @@
         <module>microservicecloud-eureka-7003</module>
         <module>microservicecloud-provider-dept-8002</module>
         <module>microservicecloud-provider-dept-8003</module>
+        <module>microservicecloud-consumer-dept-feign</module>
     </modules>
     <packaging>pom</packaging>
 
